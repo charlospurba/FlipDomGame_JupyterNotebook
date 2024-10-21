@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/46a459f0-409f-4dc8-943e-82515022d032)**Deskripsi Game**
+**Deskripsi Game**
 Permainan Flip Dom adalah permainan yang menantang kemampuan strategi pemain serta memberikan kesempatan untuk menerapkan algoritma kecerdasan buatan. Dalam permainan ini, pemain harus membuat langkah optimal untuk membalik dan mengatur domino dalam urutan yang tepat di papan permainan. 
 Program ini telah dikembangkan dengan tujuan menghadirkan permainan Flip Dom yang dapat dipecahkan oleh komputer menggunakan Minimax Function dengan pemangkasan alfa-beta. Algoritma ini bekerja secara rekursif untuk mengevaluasi status permainan di masa depan, mempertimbangkan berbagai kemungkinan gerakan yang dapat diambil oleh lawan maupun pemain. Pemangkasan alfa-beta digunakan untuk mengoptimalkan proses dengan menghilangkan langkah-langkah yang tidak perlu dievaluasi, sehingga mengurangi waktu komputasi dan mempercepat pencarian solusi terbaik.
 Tujuan utama dari aplikasi ini adalah memberikan pengalaman bermain yang seru dan edukatif, serta menunjukkan kekuatan kecerdasan buatan dalam mengambil keputusan strategis. Aplikasi Flip Dom mengikuti aturan klasik permainan berbasis domino, di mana setiap langkah yang diambil harus dipertimbangkan dengan cermat untuk memenangkan permainan melawan AI yang menggunakan algoritma optimal.
@@ -9,7 +9,6 @@ Tujuan utama dari aplikasi ini adalah memberikan pengalaman bermain yang seru da
 3.	Sebuah gerakan valid adalah gerakan yang dapat membalik pion lawan di satu atau lebih arah (horizontal, vertikal, atau diagonal).
 4.	Permainan berakhir ketika tidak ada lagi gerakan valid yang tersisa untuk kedua pemain.
 5.	Pemain dengan jumlah pion terbanyak di akhir permainan dinyatakan sebagai pemenang
-
 
 **Fitur Utama yang Terdapat dalam Aplikasi FlipDom**
 1.	Fungsi Membuat Papan Permainan (init_game)
@@ -103,8 +102,8 @@ Algoritma kemudian menuju ke node selanjutnya di kedalaman 3 yaitu node (e). Nod
 
 Setelah semua anak dari node (c) diperiksa, maka diperoleh nilai node (c) adalah -4. Nilai ini kemudian dinegasikan menjadi 4. Algoritma kemudian menuju ke node (b). Disini terjadi pengecekan apakah nilai dari node (c) yaitu 4 lebih besar dari nilai alpha node (b) yaitu -∞. Karena 4 > -∞, maka nilai alpha node (b) berubah menjadi 4. Karena nilai 4 tidak lebih besar dari nilai beta pada node (b) yaitu ∞, maka tidak terjadi pruning pada node selanjutnya.
 Algoritma kemudian menuju ke node-node selanjutnya hingga semua bagian dari pohon permainan ditelusuri untuk mendapatkan langkah terbaik dengan urutan langkah seperti yang telah dijabarkan sebelumnya.
-`
-Tabel Pengujian Permainan`
+
+Tabel Pengujian Permainan
 ![image](https://github.com/user-attachments/assets/d68d63c2-0554-4a28-934f-bc5f8de02547)
 
 Tabel Pengujian Setelah Langkah Pertama Pemain (Hitam)
